@@ -7,6 +7,16 @@
 </p>
 
 ---
+Requires Python 2.x
+---
+Offline:
+1. Install Anaconda: https://www.anaconda.com/products/distribution
+2. Clone this repository: git clone https://github.com/liewweishiung/Pacman-Search
+3. Create a new environment: conda create -n py2 python=2.7 anaconda -y
+4. Activate new environment: conda activate py2
+5. Navigate to the folder where you cloned the repository: cd <insert folder location here>
+6. Run the codes below.
+---
 An array of AI techniques is employed to playing Pac-Man <img src="./assets/PacmanAgent.PNG" width="25" height="21" border="10">. Following `Informed, Uninformed and Adversarial Search` algorithms are implemented in this project.
 - **Informed Search**: 
   - Breadth First Search
